@@ -1,0 +1,107 @@
+(test
+ (name test_lexer)
+ (libraries snow alcotest))
+
+(test
+ (name test_ast)
+ (libraries snow alcotest))
+
+(test
+ (name test_types)
+ (libraries snow alcotest))
+
+(test
+ (name test_parser)
+ (libraries snow alcotest))
+
+(test
+ (name test_typechecker)
+ (libraries snow alcotest))
+
+(test
+ (name test_semantic)
+ (libraries snow alcotest))
+
+(test
+ (name test_analyzer)
+ (libraries snow alcotest))
+
+(test
+ (name test_codegen)
+ (libraries snow))
+
+(test
+ (name test_codegen_func)
+ (libraries snow alcotest str))
+
+(test
+ (name test_struct)
+ (libraries snow alcotest))
+
+(test
+ (name test_array_codegen)
+ (libraries snow alcotest str))
+
+(test
+ (name test_for_codegen)
+ (libraries snow alcotest))
+
+(test
+ (name test_unary_codegen)
+ (libraries snow alcotest))
+
+(test
+ (name test_tuple_codegen)
+ (libraries snow alcotest))
+
+(test
+ (name test_option_result_codegen)
+ (libraries snow alcotest))
+
+(test
+ (name test_error_handling_codegen)
+ (libraries snow alcotest))
+
+(test
+ (name test_advanced_pattern_match)
+ (libraries snow alcotest))
+
+(test
+ (name test_higher_order_functions)
+ (libraries snow alcotest))
+
+(test
+ (name test_type_inference)
+ (libraries snow alcotest))
+
+(test
+ (name test_mod_install)
+ (libraries snow alcotest str))
+
+(test
+ (name test_package_main_simple)
+ (libraries snow))
+
+(test
+ (name test_error_reporting)
+ (libraries snow alcotest))
+
+(test
+ (name test_mod_system)
+ (libraries snow alcotest yaml))
+
+(test
+ (name test_snow_cli)
+ (libraries snow alcotest))
+
+(test
+ (name test_snow_commands)
+ (libraries snow alcotest))
+
+(test
+ (name test_cli_error_handling)
+ (libraries snow alcotest))
+
+(test
+ (name test_end_to_end_integration)
+ (libraries snow alcotest))

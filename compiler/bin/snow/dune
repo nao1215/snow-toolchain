@@ -1,0 +1,26 @@
+(executable
+ (public_name snow)
+ (name main)
+ (modules
+  main
+  run
+  mod_init
+  mod_parser
+  mod_tidy
+  mod_install
+  sum_parser
+  version_resolver
+  package_resolver
+  package_linker
+  build_pipeline)
+ (libraries
+  snow
+  llvm
+  llvm.analysis
+  llvm.target
+  llvm.all_backends
+  unix
+  str
+  yaml)
+ (flags
+  (:standard -w -69)))

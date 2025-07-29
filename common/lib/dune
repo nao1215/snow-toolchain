@@ -1,0 +1,20 @@
+(library
+ (name snow)
+ (public_name snow)
+ (wrapped false)
+ (libraries llvm llvm.analysis unix str)
+ (modules
+  error_reporting
+  snow
+  lexer
+  ast
+  ast_utils
+  parser
+  typechecker
+  inference
+  advanced_typechecker
+  semantic
+  analyzer
+  codegen
+  formatter
+  platform))
