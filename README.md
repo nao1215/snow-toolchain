@@ -167,7 +167,7 @@ The aim is to research how functional programming concepts can be made more acce
 
 ## License 📄
 
-This project is licensed under the terms specified in the repository.
+[MIT License](LICENSE)
 
 ---
 
