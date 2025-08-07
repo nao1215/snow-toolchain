@@ -16,6 +16,7 @@ Snow aims to provide Go-like ecosystem productivity with functional programming 
 - **LLVM Backend**: Native code generation through LLVM
 - **Go-Style Tooling**: Integrated build system and package management
 - **Functional Paradigms**: Immutable data structures and pattern matching
+- **Standard Library**: https://github.com/nao1215/snow
 
 ## Quick Start 🏁
 
